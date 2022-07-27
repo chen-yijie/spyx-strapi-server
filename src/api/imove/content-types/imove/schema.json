@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "imoves",
+  "info": {
+    "singularName": "imove",
+    "pluralName": "imoves",
+    "displayName": "imoves"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "capiton": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    }
+  }
+}
